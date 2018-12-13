@@ -16,6 +16,7 @@
 		D5606C3921C1FAE400033D3D /* basicmvvmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5606C3821C1FAE400033D3D /* basicmvvmTests.swift */; };
 		D5E3065321C1FF820042A947 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E3065221C1FF820042A947 /* ViewModel.swift */; };
 		D5E3065521C2032F0042A947 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E3065421C2032F0042A947 /* APIManager.swift */; };
+		D5E3065721C2107A0042A947 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E3065621C2107A0042A947 /* User.swift */; };
 		E595CDC134940F3ABA88DD75 /* Pods_basicmvvm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 414B67B3236C510453B719E6 /* Pods_basicmvvm.framework */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +49,7 @@
 		D5606C3A21C1FAE400033D3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D5E3065221C1FF820042A947 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		D5E3065421C2032F0042A947 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		D5E3065621C2107A0042A947 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 				D5606C2F21C1FAE400033D3D /* Info.plist */,
 				D5E3065221C1FF820042A947 /* ViewModel.swift */,
 				D5E3065421C2032F0042A947 /* APIManager.swift */,
+				D5E3065621C2107A0042A947 /* User.swift */,
 			);
 			path = basicmvvm;
 			sourceTree = "<group>";
@@ -327,6 +330,7 @@
 				D5E3065521C2032F0042A947 /* APIManager.swift in Sources */,
 				D5606C2621C1FAE400033D3D /* ViewController.swift in Sources */,
 				D5E3065321C1FF820042A947 /* ViewModel.swift in Sources */,
+				D5E3065721C2107A0042A947 /* User.swift in Sources */,
 				D5606C2421C1FAE400033D3D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

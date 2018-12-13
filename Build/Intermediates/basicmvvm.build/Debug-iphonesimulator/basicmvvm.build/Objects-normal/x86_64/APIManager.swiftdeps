@@ -11,29 +11,27 @@ depends-top-level:
 - "Bool"
 - "BooleanLiteralType"
 - !private "Disposables"
-- "Observable"
-- "String"
+- "Single"
+- "User"
 depends-member:
 - ["9basicmvvm10APIManagerV", "Bool"]
 - !private ["9basicmvvm10APIManagerV", "Disposables"]
-- ["9basicmvvm10APIManagerV", "Observable"]
 - ["9basicmvvm10APIManagerV", "SignIn"]
-- ["9basicmvvm10APIManagerV", "String"]
+- ["9basicmvvm10APIManagerV", "Single"]
+- ["9basicmvvm10APIManagerV", "User"]
 - ["9basicmvvm10APIManagerV", "init"]
-- !private ["7RxSwift11AnyObserverV", "onNext"]
 - !private ["7RxSwift11DisposablesV", "create"]
-- !private ["7RxSwift10ObservableC", "create"]
 - !private ["7RxSwift25ObservableConvertibleTypeP", "create"]
-- !private ["7RxSwift14ObservableTypeP", "create"]
-- !private ["7RxSwift12ObserverTypeP", "onNext"]
+- !private ["7RxSwift17PrimitiveSequenceV", "create"]
+- !private ["7RxSwift21PrimitiveSequenceTypeP", "create"]
+- !private ["7RxSwift11SingleEventO", "success"]
 depends-nominal:
 - "9basicmvvm10APIManagerV"
-- !private "7RxSwift11AnyObserverV"
 - !private "7RxSwift11DisposablesV"
-- !private "7RxSwift10ObservableC"
 - !private "7RxSwift25ObservableConvertibleTypeP"
-- !private "7RxSwift14ObservableTypeP"
-- !private "7RxSwift12ObserverTypeP"
+- !private "7RxSwift17PrimitiveSequenceV"
+- !private "7RxSwift21PrimitiveSequenceTypeP"
+- !private "7RxSwift11SingleEventO"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
@@ -77,4 +75,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "95adff3da2a6144921ec526908bda856"
+interface-hash: "b2c5fc9af70df93fb255a3b4be6286a7"

@@ -21,9 +21,16 @@ struct ViewModel {
   }
   
   func submit() {
-    APIManager.SignIn(username: self.username.value, password: self.password.value).subscribe(onNext: { n in
-      self.isSuccess.value = n
-    }).disposed(by: self.disposeBag)
+    // model
+    let user = User(username: self.username.value, password: self.password.value)
+    APIManager.SignIn(user).subscribe { event in
+      switch event {
+      case .success(let value):
+        self.isSuccess.value = value
+      case .error(let error):
+        print(error)
+      }
+    }.disposed(by: self.disposeBag)
   }
 }
 

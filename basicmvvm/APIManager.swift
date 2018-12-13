@@ -9,10 +9,12 @@
 import RxSwift
 
 struct APIManager {
-  static func SignIn(username: String, password: String) -> Observable<Bool> {
-    return Observable.create { observer in
+  // its use Single instead of Obserbvale
+  // https://github.com/ReactiveX/RxSwift/blob/master/Documentation/Traits.md#creating-a-single
+  static func SignIn(_ user: User) -> Single<Bool> {
+    return Single<Bool>.create { single in
       // maybe just return true or false
-      observer.onNext(true)
+      single(.success(true))
       return Disposables.create()
     }
   }

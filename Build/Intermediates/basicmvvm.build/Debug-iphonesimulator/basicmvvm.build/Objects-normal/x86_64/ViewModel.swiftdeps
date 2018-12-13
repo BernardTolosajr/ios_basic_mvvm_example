@@ -19,8 +19,10 @@ depends-top-level:
 - "Observable"
 - "String"
 - "StringLiteralType"
+- !private "User"
 - "Variable"
 - "ViewModel"
+- !private "print"
 depends-member:
 - !private ["9basicmvvm10APIManagerV", "SignIn"]
 - !private ["SK", "characters"]
@@ -90,13 +92,13 @@ depends-member:
 - !private ["So8NSStringC", "characters"]
 - !private ["7RxSwift10ObservableC", "combineLatest"]
 - !private ["7RxSwift10ObservableC", "map"]
-- !private ["7RxSwift10ObservableC", "subscribe"]
 - !private ["7RxSwift25ObservableConvertibleTypeP", "combineLatest"]
 - !private ["7RxSwift25ObservableConvertibleTypeP", "map"]
 - !private ["7RxSwift25ObservableConvertibleTypeP", "subscribe"]
 - !private ["7RxSwift14ObservableTypeP", "combineLatest"]
 - !private ["7RxSwift14ObservableTypeP", "map"]
-- !private ["7RxSwift14ObservableTypeP", "subscribe"]
+- !private ["7RxSwift17PrimitiveSequenceV", "subscribe"]
+- !private ["7RxSwift21PrimitiveSequenceTypeP", "subscribe"]
 - !private ["Sm", "characters"]
 - !private ["Sm", "count"]
 - ["Sm", "init"]
@@ -106,6 +108,8 @@ depends-member:
 - !private ["ST", "count"]
 - ["ST", "init"]
 - ["ST", "init"]
+- !private ["7RxSwift11SingleEventO", "error"]
+- !private ["7RxSwift11SingleEventO", "success"]
 - !private ["SS", "characters"]
 - ["SS", "init"]
 - ["SS", "init"]
@@ -118,6 +122,7 @@ depends-member:
 - !private ["s20TextOutputStreamableP", "characters"]
 - ["s20TextOutputStreamableP", "init"]
 - ["s20TextOutputStreamableP", "init"]
+- !private ["9basicmvvm4UserV", "init"]
 - !private ["7RxSwift8VariableC", "asObservable"]
 - ["7RxSwift8VariableC", "init"]
 - !private ["7RxSwift8VariableC", "value"]
@@ -126,12 +131,14 @@ depends-member:
 - ["9basicmvvm9ViewModelV", "DisposeBag"]
 - ["9basicmvvm9ViewModelV", "Observable"]
 - ["9basicmvvm9ViewModelV", "String"]
+- !private ["9basicmvvm9ViewModelV", "User"]
 - ["9basicmvvm9ViewModelV", "Variable"]
 - ["9basicmvvm9ViewModelV", "disposeBag"]
 - ["9basicmvvm9ViewModelV", "init"]
 - ["9basicmvvm9ViewModelV", "isSuccess"]
 - ["9basicmvvm9ViewModelV", "isValid"]
 - ["9basicmvvm9ViewModelV", "password"]
+- !private ["9basicmvvm9ViewModelV", "print"]
 - ["9basicmvvm9ViewModelV", "submit"]
 - ["9basicmvvm9ViewModelV", "username"]
 - !private ["SS14_CharacterViewV", "count"]
@@ -193,13 +200,17 @@ depends-nominal:
 - !private "7RxSwift10ObservableC"
 - !private "7RxSwift25ObservableConvertibleTypeP"
 - !private "7RxSwift14ObservableTypeP"
+- !private "7RxSwift17PrimitiveSequenceV"
+- !private "7RxSwift21PrimitiveSequenceTypeP"
 - "Sm"
 - !private "7RxSwift18ReactiveCompatibleP"
 - "ST"
+- !private "7RxSwift11SingleEventO"
 - "SS"
 - "Sy"
 - "s16TextOutputStreamP"
 - "s20TextOutputStreamableP"
+- !private "9basicmvvm4UserV"
 - "7RxSwift8VariableC"
 - "9basicmvvm9ViewModelV"
 - !private "SS14_CharacterViewV"
