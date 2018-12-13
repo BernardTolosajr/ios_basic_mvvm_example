@@ -7,6 +7,9 @@
 //
 
 import XCTest
+import RxTest
+import RxBlocking
+
 @testable import basicmvvm
 
 class basicmvvmTests: XCTestCase {
@@ -24,11 +27,42 @@ class basicmvvmTests: XCTestCase {
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
 
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
+    func testIsValidReturnTrue() {
+      do{
+        let viewModel = ViewModel()
+        
+        viewModel.password.value = "foo"
+        viewModel.username.value = "bar"
+        
+        let result = try viewModel.isValid.toBlocking().first()
+        XCTAssertTrue(result!)
+      } catch {
+        XCTFail(error.localizedDescription)
+      }
     }
 
+  func testIsValidReturnFalse() {
+    do{
+      let viewModel = ViewModel()
+      
+      viewModel.password.value = "foo"
+      
+      let result = try viewModel.isValid.toBlocking().first()
+      XCTAssertFalse(result!)
+    } catch {
+      XCTFail(error.localizedDescription)
+    }
+  }
+  
+  func testSubmit() {
+    do{
+      let viewModel = ViewModel()
+      
+      viewModel.submit()
+      
+      XCTAssertTrue(viewModel.isSuccess.value)
+    } catch {
+      XCTFail(error.localizedDescription)
+    }
+  }
 }

@@ -1,6 +1,6 @@
 version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
 options: "b1c83c30184caa240a406b6c517f1f7e"
-build_time: [1544668327, 205701000]
+build_time: [1544685559, 992512000]
 inputs:
   "/Users/bernardo.tolosa/Documents/workspace/iosworks/basicmvvm/Pods/RxCocoa/Platform/DataStructures/Bag.swift": [1544668263, 0]
   "/Users/bernardo.tolosa/Documents/workspace/iosworks/basicmvvm/Pods/RxCocoa/RxCocoa/Traits/Driver/BehaviorRelay+Driver.swift": [1544668263, 0]

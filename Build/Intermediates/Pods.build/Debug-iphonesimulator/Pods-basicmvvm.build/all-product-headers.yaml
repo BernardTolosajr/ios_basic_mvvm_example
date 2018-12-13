@@ -31,6 +31,33 @@
     },
     {
       'type': 'directory',
+      'name': "/Users/bernardo.tolosa/Documents/workspace/iosworks/basicmvvm/Build/Products/Debug-iphonesimulator/Pods_basicmvvmTests.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-basicmvvmTests-umbrella.h",
+          'external-contents': "/Users/bernardo.tolosa/Documents/workspace/iosworks/basicmvvm/Pods/Target Support Files/Pods-basicmvvmTests/Pods-basicmvvmTests-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_basicmvvmTests-Swift.h",
+          'external-contents': "/Users/bernardo.tolosa/Documents/workspace/iosworks/basicmvvm/Build/Products/Debug-iphonesimulator/Pods_basicmvvmTests.framework/Headers/Pods_basicmvvmTests-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/bernardo.tolosa/Documents/workspace/iosworks/basicmvvm/Build/Products/Debug-iphonesimulator/Pods_basicmvvmTests.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/bernardo.tolosa/Documents/workspace/iosworks/basicmvvm/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-basicmvvmTests.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
       'name': "/Users/bernardo.tolosa/Documents/workspace/iosworks/basicmvvm/Build/Products/Debug-iphonesimulator/RxAtomic/RxAtomic.framework/Headers",
       'contents': [
         {
@@ -58,6 +85,33 @@
           'type': 'file',
           'name': "module.modulemap",
           'external-contents': "/Users/bernardo.tolosa/Documents/workspace/iosworks/basicmvvm/Build/Intermediates/Pods.build/Debug-iphonesimulator/RxAtomic.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/bernardo.tolosa/Documents/workspace/iosworks/basicmvvm/Build/Products/Debug-iphonesimulator/RxBlocking/RxBlocking.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "RxBlocking-Swift.h",
+          'external-contents': "/Users/bernardo.tolosa/Documents/workspace/iosworks/basicmvvm/Build/Products/Debug-iphonesimulator/RxBlocking/RxBlocking.framework/Headers/RxBlocking-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "RxBlocking-umbrella.h",
+          'external-contents': "/Users/bernardo.tolosa/Documents/workspace/iosworks/basicmvvm/Pods/Target Support Files/RxBlocking/RxBlocking-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/bernardo.tolosa/Documents/workspace/iosworks/basicmvvm/Build/Products/Debug-iphonesimulator/RxBlocking/RxBlocking.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/bernardo.tolosa/Documents/workspace/iosworks/basicmvvm/Build/Intermediates/Pods.build/Debug-iphonesimulator/RxBlocking.build/module.modulemap"
         }
       ]
     },
@@ -142,6 +196,33 @@
           'type': 'file',
           'name': "module.modulemap",
           'external-contents': "/Users/bernardo.tolosa/Documents/workspace/iosworks/basicmvvm/Build/Intermediates/Pods.build/Debug-iphonesimulator/RxSwift.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/bernardo.tolosa/Documents/workspace/iosworks/basicmvvm/Build/Products/Debug-iphonesimulator/RxTest/RxTest.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "RxTest-Swift.h",
+          'external-contents': "/Users/bernardo.tolosa/Documents/workspace/iosworks/basicmvvm/Build/Products/Debug-iphonesimulator/RxTest/RxTest.framework/Headers/RxTest-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "RxTest-umbrella.h",
+          'external-contents': "/Users/bernardo.tolosa/Documents/workspace/iosworks/basicmvvm/Pods/Target Support Files/RxTest/RxTest-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/bernardo.tolosa/Documents/workspace/iosworks/basicmvvm/Build/Products/Debug-iphonesimulator/RxTest/RxTest.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/bernardo.tolosa/Documents/workspace/iosworks/basicmvvm/Build/Intermediates/Pods.build/Debug-iphonesimulator/RxTest.build/module.modulemap"
         }
       ]
     }
