@@ -1,0 +1,638 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ViewController"
+provides-nominal:
+- "9basicmvvm14ViewControllerC"
+provides-member:
+- ["9basicmvvm14ViewControllerC", ""]
+provides-dynamic-lookup:
+- "nameTextField"
+- "passwordTextField"
+- "someLabel"
+- "submitButton"
+- "viewDidLoad"
+depends-top-level:
+- "DisposeBag"
+- !private "NSLog"
+- "UIButton"
+- "UILabel"
+- "UITextField"
+- "UIViewController"
+- "ViewController"
+- "ViewModel"
+depends-member:
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["So15CALayerDelegateP", "resignFirstResponder"]
+- !private ["So15CALayerDelegateP", "rx"]
+- ["s7CVarArgP", "DisposeBag"]
+- !private ["s7CVarArgP", "NSLog"]
+- ["s7CVarArgP", "ViewModel"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "disposeBag"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "nameTextField"]
+- !private ["s7CVarArgP", "passwordTextField"]
+- !private ["s7CVarArgP", "resignFirstResponder"]
+- !private ["s7CVarArgP", "rx"]
+- !private ["s7CVarArgP", "setupBindings"]
+- !private ["s7CVarArgP", "setupCallBacks"]
+- !private ["s7CVarArgP", "submitButton"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- !private ["s7CVarArgP", "viewModel"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- !private ["7RxCocoa12ControlEventV", "do"]
+- !private ["7RxCocoa16ControlEventTypeP", "do"]
+- !private ["7RxCocoa15ControlPropertyV", "bind"]
+- !private ["7RxCocoa15ControlPropertyV", "orEmpty"]
+- !private ["7RxCocoa19ControlPropertyTypeP", "bind"]
+- !private ["7RxCocoa19ControlPropertyTypeP", "orEmpty"]
+- ["s28CustomDebugStringConvertibleP", "DisposeBag"]
+- !private ["s28CustomDebugStringConvertibleP", "NSLog"]
+- ["s28CustomDebugStringConvertibleP", "ViewModel"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "disposeBag"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "nameTextField"]
+- !private ["s28CustomDebugStringConvertibleP", "passwordTextField"]
+- !private ["s28CustomDebugStringConvertibleP", "resignFirstResponder"]
+- !private ["s28CustomDebugStringConvertibleP", "rx"]
+- !private ["s28CustomDebugStringConvertibleP", "setupBindings"]
+- !private ["s28CustomDebugStringConvertibleP", "setupCallBacks"]
+- !private ["s28CustomDebugStringConvertibleP", "submitButton"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s28CustomDebugStringConvertibleP", "viewModel"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "resignFirstResponder"]
+- !private ["s17CustomReflectableP", "rx"]
+- ["s23CustomStringConvertibleP", "DisposeBag"]
+- !private ["s23CustomStringConvertibleP", "NSLog"]
+- ["s23CustomStringConvertibleP", "ViewModel"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "disposeBag"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "nameTextField"]
+- !private ["s23CustomStringConvertibleP", "passwordTextField"]
+- !private ["s23CustomStringConvertibleP", "resignFirstResponder"]
+- !private ["s23CustomStringConvertibleP", "rx"]
+- !private ["s23CustomStringConvertibleP", "setupBindings"]
+- !private ["s23CustomStringConvertibleP", "setupCallBacks"]
+- !private ["s23CustomStringConvertibleP", "submitButton"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["s23CustomStringConvertibleP", "viewModel"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["Se", "resignFirstResponder"]
+- !private ["Se", "rx"]
+- !private ["7RxSwift10DisposableP", "disposed"]
+- ["7RxSwift10DisposeBagC", "init"]
+- ["7RxSwift11DisposeBaseC", "init"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SE", "resignFirstResponder"]
+- !private ["SE", "rx"]
+- ["SQ", "DisposeBag"]
+- !private ["SQ", "NSLog"]
+- ["SQ", "ViewModel"]
+- ["SQ", ""]
+- !private ["SQ", "disposeBag"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "nameTextField"]
+- !private ["SQ", "passwordTextField"]
+- !private ["SQ", "resignFirstResponder"]
+- !private ["SQ", "rx"]
+- !private ["SQ", "setupBindings"]
+- !private ["SQ", "setupCallBacks"]
+- !private ["SQ", "submitButton"]
+- !private ["SQ", "viewDidLoad"]
+- !private ["SQ", "viewModel"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "resignFirstResponder"]
+- !private ["s23ExpressibleByNilLiteralP", "rx"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["SH", "DisposeBag"]
+- !private ["SH", "NSLog"]
+- ["SH", "ViewModel"]
+- ["SH", ""]
+- !private ["SH", "disposeBag"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "nameTextField"]
+- !private ["SH", "passwordTextField"]
+- !private ["SH", "resignFirstResponder"]
+- !private ["SH", "rx"]
+- !private ["SH", "setupBindings"]
+- !private ["SH", "setupCallBacks"]
+- !private ["SH", "submitButton"]
+- !private ["SH", "viewDidLoad"]
+- !private ["SH", "viewModel"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- ["So8NSCodingP", "DisposeBag"]
+- !private ["So8NSCodingP", "NSLog"]
+- ["So8NSCodingP", "ViewModel"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "disposeBag"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "nameTextField"]
+- !private ["So8NSCodingP", "passwordTextField"]
+- !private ["So8NSCodingP", "resignFirstResponder"]
+- !private ["So8NSCodingP", "rx"]
+- !private ["So8NSCodingP", "setupBindings"]
+- !private ["So8NSCodingP", "setupCallBacks"]
+- !private ["So8NSCodingP", "submitButton"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- !private ["So8NSCodingP", "viewModel"]
+- ["So26NSExtensionRequestHandlingP", "DisposeBag"]
+- !private ["So26NSExtensionRequestHandlingP", "NSLog"]
+- ["So26NSExtensionRequestHandlingP", "ViewModel"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "disposeBag"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "nameTextField"]
+- !private ["So26NSExtensionRequestHandlingP", "passwordTextField"]
+- !private ["So26NSExtensionRequestHandlingP", "setupBindings"]
+- !private ["So26NSExtensionRequestHandlingP", "setupCallBacks"]
+- !private ["So26NSExtensionRequestHandlingP", "submitButton"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- !private ["So26NSExtensionRequestHandlingP", "viewModel"]
+- ["So8NSObjectC", "DisposeBag"]
+- !private ["So8NSObjectC", "NSLog"]
+- ["So8NSObjectC", "UIButton"]
+- ["So8NSObjectC", "UILabel"]
+- ["So8NSObjectC", "UITextField"]
+- ["So8NSObjectC", "ViewModel"]
+- ["So8NSObjectC", "disposeBag"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "nameTextField"]
+- ["So8NSObjectC", "passwordTextField"]
+- !private ["So8NSObjectC", "resignFirstResponder"]
+- !private ["So8NSObjectC", "rx"]
+- ["So8NSObjectC", "setupBindings"]
+- ["So8NSObjectC", "setupCallBacks"]
+- ["So8NSObjectC", "someLabel"]
+- ["So8NSObjectC", "submitButton"]
+- ["So8NSObjectC", "viewDidLoad"]
+- ["So8NSObjectC", "viewModel"]
+- ["So8NSObjectP", "DisposeBag"]
+- !private ["So8NSObjectP", "NSLog"]
+- ["So8NSObjectP", "ViewModel"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "disposeBag"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "nameTextField"]
+- !private ["So8NSObjectP", "passwordTextField"]
+- !private ["So8NSObjectP", "resignFirstResponder"]
+- !private ["So8NSObjectP", "rx"]
+- !private ["So8NSObjectP", "setupBindings"]
+- !private ["So8NSObjectP", "setupCallBacks"]
+- !private ["So8NSObjectP", "submitButton"]
+- !private ["So8NSObjectP", "viewDidLoad"]
+- !private ["So8NSObjectP", "viewModel"]
+- !private ["7RxSwift10ObservableC", "bind"]
+- !private ["7RxSwift10ObservableC", "subscribe"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "bind"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "do"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "orEmpty"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "subscribe"]
+- !private ["7RxSwift14ObservableTypeP", "bind"]
+- !private ["7RxSwift14ObservableTypeP", "do"]
+- !private ["7RxSwift14ObservableTypeP", "orEmpty"]
+- !private ["7RxSwift14ObservableTypeP", "subscribe"]
+- !private ["7RxSwift12ObserverTypeP", "bind"]
+- !private ["7RxSwift12ObserverTypeP", "orEmpty"]
+- !private ["Sq", "resignFirstResponder"]
+- !private ["Sq", "rx"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["7RxSwift8ReactiveV", "isEnabled"]
+- !private ["7RxSwift8ReactiveV", "tap"]
+- !private ["7RxSwift8ReactiveV", "text"]
+- ["7RxSwift18ReactiveCompatibleP", "DisposeBag"]
+- !private ["7RxSwift18ReactiveCompatibleP", "NSLog"]
+- ["7RxSwift18ReactiveCompatibleP", "ViewModel"]
+- ["7RxSwift18ReactiveCompatibleP", ""]
+- !private ["7RxSwift18ReactiveCompatibleP", "disposeBag"]
+- !private ["7RxSwift18ReactiveCompatibleP", "init"]
+- !private ["7RxSwift18ReactiveCompatibleP", "init"]
+- !private ["7RxSwift18ReactiveCompatibleP", "nameTextField"]
+- !private ["7RxSwift18ReactiveCompatibleP", "passwordTextField"]
+- !private ["7RxSwift18ReactiveCompatibleP", "resignFirstResponder"]
+- !private ["7RxSwift18ReactiveCompatibleP", "rx"]
+- !private ["7RxSwift18ReactiveCompatibleP", "setupBindings"]
+- !private ["7RxSwift18ReactiveCompatibleP", "setupCallBacks"]
+- !private ["7RxSwift18ReactiveCompatibleP", "submitButton"]
+- !private ["7RxSwift18ReactiveCompatibleP", "viewDidLoad"]
+- !private ["7RxSwift18ReactiveCompatibleP", "viewModel"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "rx"]
+- !private ["So29UIAccessibilityIdentificationP", "resignFirstResponder"]
+- !private ["So29UIAccessibilityIdentificationP", "rx"]
+- !private ["So12UIAppearanceP", "resignFirstResponder"]
+- !private ["So12UIAppearanceP", "rx"]
+- ["So21UIAppearanceContainerP", "DisposeBag"]
+- !private ["So21UIAppearanceContainerP", "NSLog"]
+- ["So21UIAppearanceContainerP", "ViewModel"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "disposeBag"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "nameTextField"]
+- !private ["So21UIAppearanceContainerP", "passwordTextField"]
+- !private ["So21UIAppearanceContainerP", "resignFirstResponder"]
+- !private ["So21UIAppearanceContainerP", "rx"]
+- !private ["So21UIAppearanceContainerP", "setupBindings"]
+- !private ["So21UIAppearanceContainerP", "setupCallBacks"]
+- !private ["So21UIAppearanceContainerP", "submitButton"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- !private ["So21UIAppearanceContainerP", "viewModel"]
+- !private ["So8UIButtonC", "rx"]
+- ["So18UIContentContainerP", "DisposeBag"]
+- !private ["So18UIContentContainerP", "NSLog"]
+- ["So18UIContentContainerP", "ViewModel"]
+- ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "disposeBag"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "nameTextField"]
+- !private ["So18UIContentContainerP", "passwordTextField"]
+- !private ["So18UIContentContainerP", "setupBindings"]
+- !private ["So18UIContentContainerP", "setupCallBacks"]
+- !private ["So18UIContentContainerP", "submitButton"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So18UIContentContainerP", "viewModel"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "resignFirstResponder"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "rx"]
+- !private ["So9UIControlC", "resignFirstResponder"]
+- !private ["So9UIControlC", "rx"]
+- !private ["So17UICoordinateSpaceP", "resignFirstResponder"]
+- !private ["So17UICoordinateSpaceP", "rx"]
+- !private ["So13UIDynamicItemP", "resignFirstResponder"]
+- !private ["So13UIDynamicItemP", "rx"]
+- ["So18UIFocusEnvironmentP", "DisposeBag"]
+- !private ["So18UIFocusEnvironmentP", "NSLog"]
+- ["So18UIFocusEnvironmentP", "ViewModel"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "disposeBag"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "nameTextField"]
+- !private ["So18UIFocusEnvironmentP", "passwordTextField"]
+- !private ["So18UIFocusEnvironmentP", "resignFirstResponder"]
+- !private ["So18UIFocusEnvironmentP", "rx"]
+- !private ["So18UIFocusEnvironmentP", "setupBindings"]
+- !private ["So18UIFocusEnvironmentP", "setupCallBacks"]
+- !private ["So18UIFocusEnvironmentP", "submitButton"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So18UIFocusEnvironmentP", "viewModel"]
+- !private ["So11UIFocusItemP", "resignFirstResponder"]
+- !private ["So11UIFocusItemP", "rx"]
+- !private ["So20UIFocusItemContainerP", "resignFirstResponder"]
+- !private ["So20UIFocusItemContainerP", "rx"]
+- !private ["So10UIKeyInputP", "resignFirstResponder"]
+- !private ["So10UIKeyInputP", "rx"]
+- ["So30UIPasteConfigurationSupportingP", "DisposeBag"]
+- !private ["So30UIPasteConfigurationSupportingP", "NSLog"]
+- ["So30UIPasteConfigurationSupportingP", "ViewModel"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "disposeBag"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "nameTextField"]
+- !private ["So30UIPasteConfigurationSupportingP", "passwordTextField"]
+- !private ["So30UIPasteConfigurationSupportingP", "resignFirstResponder"]
+- !private ["So30UIPasteConfigurationSupportingP", "rx"]
+- !private ["So30UIPasteConfigurationSupportingP", "setupBindings"]
+- !private ["So30UIPasteConfigurationSupportingP", "setupCallBacks"]
+- !private ["So30UIPasteConfigurationSupportingP", "submitButton"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewModel"]
+- ["So11UIResponderC", "DisposeBag"]
+- !private ["So11UIResponderC", "NSLog"]
+- ["So11UIResponderC", "UIButton"]
+- ["So11UIResponderC", "UILabel"]
+- ["So11UIResponderC", "UITextField"]
+- ["So11UIResponderC", "ViewModel"]
+- ["So11UIResponderC", "disposeBag"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "nameTextField"]
+- ["So11UIResponderC", "passwordTextField"]
+- !private ["So11UIResponderC", "resignFirstResponder"]
+- !private ["So11UIResponderC", "rx"]
+- ["So11UIResponderC", "setupBindings"]
+- ["So11UIResponderC", "setupCallBacks"]
+- ["So11UIResponderC", "someLabel"]
+- ["So11UIResponderC", "submitButton"]
+- ["So11UIResponderC", "viewDidLoad"]
+- ["So11UIResponderC", "viewModel"]
+- ["So30UIResponderStandardEditActionsP", "DisposeBag"]
+- !private ["So30UIResponderStandardEditActionsP", "NSLog"]
+- ["So30UIResponderStandardEditActionsP", "ViewModel"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "disposeBag"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "nameTextField"]
+- !private ["So30UIResponderStandardEditActionsP", "passwordTextField"]
+- !private ["So30UIResponderStandardEditActionsP", "resignFirstResponder"]
+- !private ["So30UIResponderStandardEditActionsP", "rx"]
+- !private ["So30UIResponderStandardEditActionsP", "setupBindings"]
+- !private ["So30UIResponderStandardEditActionsP", "setupCallBacks"]
+- !private ["So30UIResponderStandardEditActionsP", "submitButton"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "viewModel"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "rx"]
+- ["So16UIStateRestoringP", "DisposeBag"]
+- !private ["So16UIStateRestoringP", "NSLog"]
+- ["So16UIStateRestoringP", "ViewModel"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "disposeBag"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "nameTextField"]
+- !private ["So16UIStateRestoringP", "passwordTextField"]
+- !private ["So16UIStateRestoringP", "setupBindings"]
+- !private ["So16UIStateRestoringP", "setupCallBacks"]
+- !private ["So16UIStateRestoringP", "submitButton"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- !private ["So16UIStateRestoringP", "viewModel"]
+- !private ["So15UITextDraggableP", "resignFirstResponder"]
+- !private ["So15UITextDraggableP", "rx"]
+- !private ["So15UITextDroppableP", "resignFirstResponder"]
+- !private ["So15UITextDroppableP", "rx"]
+- !private ["So11UITextFieldC", "resignFirstResponder"]
+- !private ["So11UITextFieldC", "rx"]
+- !private ["So11UITextInputP", "resignFirstResponder"]
+- !private ["So11UITextInputP", "rx"]
+- !private ["So17UITextInputTraitsP", "resignFirstResponder"]
+- !private ["So17UITextInputTraitsP", "rx"]
+- !private ["So34UITextPasteConfigurationSupportingP", "resignFirstResponder"]
+- !private ["So34UITextPasteConfigurationSupportingP", "rx"]
+- ["So18UITraitEnvironmentP", "DisposeBag"]
+- !private ["So18UITraitEnvironmentP", "NSLog"]
+- ["So18UITraitEnvironmentP", "ViewModel"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "disposeBag"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "nameTextField"]
+- !private ["So18UITraitEnvironmentP", "passwordTextField"]
+- !private ["So18UITraitEnvironmentP", "resignFirstResponder"]
+- !private ["So18UITraitEnvironmentP", "rx"]
+- !private ["So18UITraitEnvironmentP", "setupBindings"]
+- !private ["So18UITraitEnvironmentP", "setupCallBacks"]
+- !private ["So18UITraitEnvironmentP", "submitButton"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- !private ["So18UITraitEnvironmentP", "viewModel"]
+- ["So23UIUserActivityRestoringP", "DisposeBag"]
+- !private ["So23UIUserActivityRestoringP", "NSLog"]
+- ["So23UIUserActivityRestoringP", "ViewModel"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "disposeBag"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "nameTextField"]
+- !private ["So23UIUserActivityRestoringP", "passwordTextField"]
+- !private ["So23UIUserActivityRestoringP", "resignFirstResponder"]
+- !private ["So23UIUserActivityRestoringP", "rx"]
+- !private ["So23UIUserActivityRestoringP", "setupBindings"]
+- !private ["So23UIUserActivityRestoringP", "setupCallBacks"]
+- !private ["So23UIUserActivityRestoringP", "submitButton"]
+- !private ["So23UIUserActivityRestoringP", "viewDidLoad"]
+- !private ["So23UIUserActivityRestoringP", "viewModel"]
+- !private ["So6UIViewC", "resignFirstResponder"]
+- !private ["So6UIViewC", "rx"]
+- ["So16UIViewControllerC", "DisposeBag"]
+- !private ["So16UIViewControllerC", "NSLog"]
+- ["So16UIViewControllerC", "UIButton"]
+- ["So16UIViewControllerC", "UILabel"]
+- ["So16UIViewControllerC", "UITextField"]
+- ["So16UIViewControllerC", "ViewModel"]
+- ["So16UIViewControllerC", ""]
+- ["So16UIViewControllerC", "disposeBag"]
+- ["So16UIViewControllerC", "init"]
+- !private ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "nameTextField"]
+- ["So16UIViewControllerC", "passwordTextField"]
+- ["So16UIViewControllerC", "setupBindings"]
+- ["So16UIViewControllerC", "setupCallBacks"]
+- ["So16UIViewControllerC", "someLabel"]
+- ["So16UIViewControllerC", "submitButton"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- ["So16UIViewControllerC", "viewModel"]
+- !private ["7RxSwift8VariableC", "asObservable"]
+- ["9basicmvvm14ViewControllerC", "DisposeBag"]
+- !private ["9basicmvvm14ViewControllerC", "NSLog"]
+- ["9basicmvvm14ViewControllerC", "UIButton"]
+- ["9basicmvvm14ViewControllerC", "UILabel"]
+- ["9basicmvvm14ViewControllerC", "UITextField"]
+- ["9basicmvvm14ViewControllerC", "ViewModel"]
+- ["9basicmvvm14ViewControllerC", "disposeBag"]
+- ["9basicmvvm14ViewControllerC", "init"]
+- ["9basicmvvm14ViewControllerC", "nameTextField"]
+- ["9basicmvvm14ViewControllerC", "passwordTextField"]
+- ["9basicmvvm14ViewControllerC", "setupBindings"]
+- ["9basicmvvm14ViewControllerC", "setupCallBacks"]
+- ["9basicmvvm14ViewControllerC", "someLabel"]
+- ["9basicmvvm14ViewControllerC", "submitButton"]
+- ["9basicmvvm14ViewControllerC", "viewDidLoad"]
+- ["9basicmvvm14ViewControllerC", "viewModel"]
+- ["9basicmvvm9ViewModelV", "init"]
+- !private ["9basicmvvm9ViewModelV", "isSuccess"]
+- !private ["9basicmvvm9ViewModelV", "isValid"]
+- !private ["9basicmvvm9ViewModelV", "password"]
+- !private ["9basicmvvm9ViewModelV", "submit"]
+- !private ["9basicmvvm9ViewModelV", "username"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "resignFirstResponder"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "rx"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "DisposeBag"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSLog"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "ViewModel"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "disposeBag"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "nameTextField"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "passwordTextField"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "resignFirstResponder"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "rx"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setupBindings"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setupCallBacks"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "submitButton"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewModel"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "resignFirstResponder"]
+- !private ["s21_ObjectiveCBridgeableP", "rx"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "SK"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "7RxCocoa12ControlEventV"
+- !private "7RxCocoa16ControlEventTypeP"
+- !private "7RxCocoa15ControlPropertyV"
+- !private "7RxCocoa19ControlPropertyTypeP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "7RxSwift10DisposableP"
+- "7RxSwift10DisposeBagC"
+- "7RxSwift11DisposeBaseC"
+- !private "SE"
+- "SQ"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "So8NSCodingP"
+- "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "7RxSwift10ObservableC"
+- !private "7RxSwift25ObservableConvertibleTypeP"
+- !private "7RxSwift14ObservableTypeP"
+- !private "7RxSwift12ObserverTypeP"
+- !private "Sq"
+- !private "Sm"
+- !private "7RxSwift8ReactiveV"
+- "7RxSwift18ReactiveCompatibleP"
+- !private "ST"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "So8UIButtonC"
+- "So18UIContentContainerP"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- !private "So9UIControlC"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So10UIKeyInputP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- !private "So35UISpringLoadedInteractionSupportingP"
+- "So16UIStateRestoringP"
+- !private "So15UITextDraggableP"
+- !private "So15UITextDroppableP"
+- !private "So11UITextFieldC"
+- !private "So11UITextInputP"
+- !private "So17UITextInputTraitsP"
+- !private "So34UITextPasteConfigurationSupportingP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "7RxSwift8VariableC"
+- "9basicmvvm14ViewControllerC"
+- "9basicmvvm9ViewModelV"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/bernardo.tolosa/Documents/workspace/iosworks/basicmvvm/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Modules/RxCocoa.swiftmodule/x86_64.swiftmodule"
+- "/Users/bernardo.tolosa/Documents/workspace/iosworks/basicmvvm/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/bernardo.tolosa/Documents/workspace/iosworks/basicmvvm/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/_RX.h"
+- "/Users/bernardo.tolosa/Documents/workspace/iosworks/basicmvvm/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoa-umbrella.h"
+- "/Users/bernardo.tolosa/Documents/workspace/iosworks/basicmvvm/Build/Products/Debug-iphonesimulator/RxAtomic/RxAtomic.framework/Headers/RxAtomic-umbrella.h"
+- "/Users/bernardo.tolosa/Documents/workspace/iosworks/basicmvvm/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-umbrella.h"
+- "/Users/bernardo.tolosa/Documents/workspace/iosworks/basicmvvm/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoa.h"
+- "/Users/bernardo.tolosa/Documents/workspace/iosworks/basicmvvm/Build/Products/Debug-iphonesimulator/RxAtomic/RxAtomic.framework/Headers/RxAtomic.h"
+- "/Users/bernardo.tolosa/Documents/workspace/iosworks/basicmvvm/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/_RXObjCRuntime.h"
+- "/Users/bernardo.tolosa/Documents/workspace/iosworks/basicmvvm/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoaRuntime.h"
+- "/Users/bernardo.tolosa/Documents/workspace/iosworks/basicmvvm/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/_RXKVOObserver.h"
+- "/Users/bernardo.tolosa/Documents/workspace/iosworks/basicmvvm/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoa-Swift.h"
+- "/Users/bernardo.tolosa/Documents/workspace/iosworks/basicmvvm/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/bernardo.tolosa/Documents/workspace/iosworks/basicmvvm/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/_RXDelegateProxy.h"
+- "/Users/bernardo.tolosa/Documents/workspace/iosworks/basicmvvm/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Modules/module.modulemap"
+- "/Users/bernardo.tolosa/Documents/workspace/iosworks/basicmvvm/Build/Products/Debug-iphonesimulator/RxAtomic/RxAtomic.framework/Modules/module.modulemap"
+- "/Users/bernardo.tolosa/Documents/workspace/iosworks/basicmvvm/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "840f72b2b28c44d8e3bd134389927d66"

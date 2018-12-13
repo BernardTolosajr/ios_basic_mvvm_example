@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/bernardo.tolosa/Documents/workspace/iosworks/basicmvvm/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/bernardo.tolosa/Documents/workspace/iosworks/basicmvvm/Build/Intermediates/Pods.build/Debug-iphonesimulator/RxSwift.build/unextended-module.modulemap",
+    }]
+  }]
+}

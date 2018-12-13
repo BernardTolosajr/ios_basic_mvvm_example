@@ -1,0 +1,149 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/bernardo.tolosa/Documents/workspace/iosworks/basicmvvm/Build/Products/Debug-iphonesimulator/Pods_basicmvvm.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-basicmvvm-umbrella.h",
+          'external-contents': "/Users/bernardo.tolosa/Documents/workspace/iosworks/basicmvvm/Pods/Target Support Files/Pods-basicmvvm/Pods-basicmvvm-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_basicmvvm-Swift.h",
+          'external-contents': "/Users/bernardo.tolosa/Documents/workspace/iosworks/basicmvvm/Build/Products/Debug-iphonesimulator/Pods_basicmvvm.framework/Headers/Pods_basicmvvm-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/bernardo.tolosa/Documents/workspace/iosworks/basicmvvm/Build/Products/Debug-iphonesimulator/Pods_basicmvvm.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/bernardo.tolosa/Documents/workspace/iosworks/basicmvvm/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-basicmvvm.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/bernardo.tolosa/Documents/workspace/iosworks/basicmvvm/Build/Products/Debug-iphonesimulator/RxAtomic/RxAtomic.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "RxAtomic-Swift.h",
+          'external-contents': "/Users/bernardo.tolosa/Documents/workspace/iosworks/basicmvvm/Build/Products/Debug-iphonesimulator/RxAtomic/RxAtomic.framework/Headers/RxAtomic-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "RxAtomic-umbrella.h",
+          'external-contents': "/Users/bernardo.tolosa/Documents/workspace/iosworks/basicmvvm/Pods/Target Support Files/RxAtomic/RxAtomic-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "RxAtomic.h",
+          'external-contents': "/Users/bernardo.tolosa/Documents/workspace/iosworks/basicmvvm/Pods/RxAtomic/RxAtomic/include/RxAtomic.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/bernardo.tolosa/Documents/workspace/iosworks/basicmvvm/Build/Products/Debug-iphonesimulator/RxAtomic/RxAtomic.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/bernardo.tolosa/Documents/workspace/iosworks/basicmvvm/Build/Intermediates/Pods.build/Debug-iphonesimulator/RxAtomic.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/bernardo.tolosa/Documents/workspace/iosworks/basicmvvm/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "RxCocoa-Swift.h",
+          'external-contents': "/Users/bernardo.tolosa/Documents/workspace/iosworks/basicmvvm/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoa-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "RxCocoa-umbrella.h",
+          'external-contents': "/Users/bernardo.tolosa/Documents/workspace/iosworks/basicmvvm/Pods/Target Support Files/RxCocoa/RxCocoa-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "RxCocoa.h",
+          'external-contents': "/Users/bernardo.tolosa/Documents/workspace/iosworks/basicmvvm/Pods/RxCocoa/RxCocoa/RxCocoa.h"
+        },
+        {
+          'type': 'file',
+          'name': "RxCocoaRuntime.h",
+          'external-contents': "/Users/bernardo.tolosa/Documents/workspace/iosworks/basicmvvm/Pods/RxCocoa/RxCocoa/Runtime/include/RxCocoaRuntime.h"
+        },
+        {
+          'type': 'file',
+          'name': "_RX.h",
+          'external-contents': "/Users/bernardo.tolosa/Documents/workspace/iosworks/basicmvvm/Pods/RxCocoa/RxCocoa/Runtime/include/_RX.h"
+        },
+        {
+          'type': 'file',
+          'name': "_RXDelegateProxy.h",
+          'external-contents': "/Users/bernardo.tolosa/Documents/workspace/iosworks/basicmvvm/Pods/RxCocoa/RxCocoa/Runtime/include/_RXDelegateProxy.h"
+        },
+        {
+          'type': 'file',
+          'name': "_RXKVOObserver.h",
+          'external-contents': "/Users/bernardo.tolosa/Documents/workspace/iosworks/basicmvvm/Pods/RxCocoa/RxCocoa/Runtime/include/_RXKVOObserver.h"
+        },
+        {
+          'type': 'file',
+          'name': "_RXObjCRuntime.h",
+          'external-contents': "/Users/bernardo.tolosa/Documents/workspace/iosworks/basicmvvm/Pods/RxCocoa/RxCocoa/Runtime/include/_RXObjCRuntime.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/bernardo.tolosa/Documents/workspace/iosworks/basicmvvm/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/bernardo.tolosa/Documents/workspace/iosworks/basicmvvm/Build/Intermediates/Pods.build/Debug-iphonesimulator/RxCocoa.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/bernardo.tolosa/Documents/workspace/iosworks/basicmvvm/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "RxSwift-Swift.h",
+          'external-contents': "/Users/bernardo.tolosa/Documents/workspace/iosworks/basicmvvm/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "RxSwift-umbrella.h",
+          'external-contents': "/Users/bernardo.tolosa/Documents/workspace/iosworks/basicmvvm/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/bernardo.tolosa/Documents/workspace/iosworks/basicmvvm/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/bernardo.tolosa/Documents/workspace/iosworks/basicmvvm/Build/Intermediates/Pods.build/Debug-iphonesimulator/RxSwift.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}
