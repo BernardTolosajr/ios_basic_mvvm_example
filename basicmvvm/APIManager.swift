@@ -13,6 +13,7 @@ struct APIManager {
   // https://github.com/ReactiveX/RxSwift/blob/master/Documentation/Traits.md#creating-a-single
   static func SignIn(_ user: User) -> Single<Bool> {
     return Single<Bool>.create { single in
+      // fetch from the api here
       // maybe just return true or false
       single(.success(true))
       return Disposables.create()

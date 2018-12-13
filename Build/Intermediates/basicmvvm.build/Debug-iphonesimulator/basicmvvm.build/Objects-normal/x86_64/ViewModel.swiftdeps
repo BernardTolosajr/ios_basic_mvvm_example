@@ -135,6 +135,7 @@ depends-member:
 - ["9basicmvvm9ViewModelV", "Variable"]
 - ["9basicmvvm9ViewModelV", "disposeBag"]
 - ["9basicmvvm9ViewModelV", "init"]
+- ["9basicmvvm9ViewModelV", "isError"]
 - ["9basicmvvm9ViewModelV", "isSuccess"]
 - ["9basicmvvm9ViewModelV", "isValid"]
 - ["9basicmvvm9ViewModelV", "password"]
@@ -266,4 +267,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "26b84575e558f0cc7e12c999b31cc72b"
+interface-hash: "bc0b151f6665c1f77a460f0767c95b87"

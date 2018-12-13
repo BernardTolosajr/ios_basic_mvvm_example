@@ -1,9 +1,9 @@
 version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
 options: "8baa6e447fc228c88506b9d7487f92b3"
-build_time: [1544674227, 653982000]
+build_time: [1544674704, 115760000]
 inputs:
-  "/Users/bernardo.tolosa/Documents/workspace/iosworks/basicmvvm/basicmvvm/APIManager.swift": [1544674027, 0]
+  "/Users/bernardo.tolosa/Documents/workspace/iosworks/basicmvvm/basicmvvm/APIManager.swift": [1544674575, 0]
   "/Users/bernardo.tolosa/Documents/workspace/iosworks/basicmvvm/basicmvvm/ViewController.swift": [1544673445, 0]
-  "/Users/bernardo.tolosa/Documents/workspace/iosworks/basicmvvm/basicmvvm/ViewModel.swift": [1544674226, 0]
+  "/Users/bernardo.tolosa/Documents/workspace/iosworks/basicmvvm/basicmvvm/ViewModel.swift": [1544674701, 0]
   "/Users/bernardo.tolosa/Documents/workspace/iosworks/basicmvvm/basicmvvm/User.swift": [1544673678, 0]
   "/Users/bernardo.tolosa/Documents/workspace/iosworks/basicmvvm/basicmvvm/AppDelegate.swift": [1544668004, 0]

@@ -12,6 +12,7 @@ struct ViewModel {
   var username = Variable<String>("")
   var password = Variable<String>("")
   var isSuccess = Variable<Bool>(false)
+  var isError = Variable<Bool>(false)
   let disposeBag = DisposeBag()
   
   var isValid: Observable<Bool> {
@@ -29,6 +30,7 @@ struct ViewModel {
         self.isSuccess.value = value
       case .error(let error):
         print(error)
+        self.isError.value = true
       }
     }.disposed(by: self.disposeBag)
   }
