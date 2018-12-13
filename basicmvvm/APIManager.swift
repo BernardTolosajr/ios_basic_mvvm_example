@@ -8,10 +8,14 @@
 
 import RxSwift
 
-struct APIManager {
+protocol APIManagerProtocol {
+  func SignIn(_ user: User) -> Single<Bool>
+}
+
+struct APIManager: APIManagerProtocol {
   // its use Single instead of Obserbvale
   // https://github.com/ReactiveX/RxSwift/blob/master/Documentation/Traits.md#creating-a-single
-  static func SignIn(_ user: User) -> Single<Bool> {
+  func SignIn(_ user: User) -> Single<Bool> {
     return Single<Bool>.create { single in
       // fetch from the api here
       // maybe just return true or false

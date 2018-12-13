@@ -1,6 +1,6 @@
 version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
 options: "5250d990562023018bd1a8639d97ef1c"
-build_time: [1544685558, 972919000]
+build_time: [1544687562, 918007000]
 inputs:
   "/Users/bernardo.tolosa/Documents/workspace/iosworks/basicmvvm/Pods/RxSwift/RxSwift/Observables/AddRef.swift": [1544668270, 0]
   "/Users/bernardo.tolosa/Documents/workspace/iosworks/basicmvvm/Pods/RxSwift/RxSwift/Observables/Amb.swift": [1544668270, 0]

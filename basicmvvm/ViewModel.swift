@@ -9,11 +9,17 @@
 import RxSwift
 
 struct ViewModel {
+  let apiManager: APIManagerProtocol
+  
   var username = Variable<String>("")
   var password = Variable<String>("")
   var isSuccess = Variable<Bool>(false)
   var isError = Variable<Bool>(false)
   let disposeBag = DisposeBag()
+  
+  init(apiManager: APIManagerProtocol = APIManager()) {
+    self.apiManager = apiManager
+  }
   
   var isValid: Observable<Bool> {
     let username = self.username.asObservable().map { $0.characters.count >  0}
@@ -21,10 +27,10 @@ struct ViewModel {
     return Observable.combineLatest(username, password) { $0 && $1 }
   }
   
-  func submit() {
+  func submit() { 
     // model
     let user = User(username: self.username.value, password: self.password.value)
-    APIManager.SignIn(user).subscribe { event in
+    self.apiManager.SignIn(user).subscribe { event in
       switch event {
       case .success(let value):
         self.isSuccess.value = value

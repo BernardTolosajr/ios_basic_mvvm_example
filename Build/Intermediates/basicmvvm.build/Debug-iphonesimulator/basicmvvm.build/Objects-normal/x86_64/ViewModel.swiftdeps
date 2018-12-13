@@ -10,7 +10,8 @@ depends-top-level:
 - !private "&&"
 - !private ">"
 - !private "APIManager"
-- !private "AssignmentPrecedence"
+- "APIManagerProtocol"
+- "AssignmentPrecedence"
 - "Bool"
 - "BooleanLiteralType"
 - "DisposeBag"
@@ -24,7 +25,10 @@ depends-top-level:
 - "ViewModel"
 - !private "print"
 depends-member:
-- !private ["9basicmvvm10APIManagerV", "SignIn"]
+- !private ["9basicmvvm10APIManagerV", "deinit"]
+- !private ["9basicmvvm10APIManagerV", "init"]
+- !private ["9basicmvvm18APIManagerProtocolP", "SignIn"]
+- !private ["9basicmvvm18APIManagerProtocolP", "init"]
 - !private ["SK", "characters"]
 - !private ["SK", "count"]
 - ["SK", "init"]
@@ -127,12 +131,14 @@ depends-member:
 - ["7RxSwift8VariableC", "init"]
 - !private ["7RxSwift8VariableC", "value"]
 - !private ["9basicmvvm9ViewModelV", "APIManager"]
+- ["9basicmvvm9ViewModelV", "APIManagerProtocol"]
 - ["9basicmvvm9ViewModelV", "Bool"]
 - ["9basicmvvm9ViewModelV", "DisposeBag"]
 - ["9basicmvvm9ViewModelV", "Observable"]
 - ["9basicmvvm9ViewModelV", "String"]
 - !private ["9basicmvvm9ViewModelV", "User"]
 - ["9basicmvvm9ViewModelV", "Variable"]
+- ["9basicmvvm9ViewModelV", "apiManager"]
 - ["9basicmvvm9ViewModelV", "disposeBag"]
 - ["9basicmvvm9ViewModelV", "init"]
 - ["9basicmvvm9ViewModelV", "isError"]
@@ -169,6 +175,7 @@ depends-member:
 - ["s16_SwiftStringViewP", "init"]
 depends-nominal:
 - !private "9basicmvvm10APIManagerV"
+- !private "9basicmvvm18APIManagerProtocolP"
 - "SK"
 - "s7CVarArgP"
 - "Sl"
@@ -267,4 +274,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "bc0b151f6665c1f77a460f0767c95b87"
+interface-hash: "2fa0e2660298b7fdc55707c09caad751"

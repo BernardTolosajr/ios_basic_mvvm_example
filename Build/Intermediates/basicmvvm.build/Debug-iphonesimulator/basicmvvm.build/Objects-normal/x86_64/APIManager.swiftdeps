@@ -1,13 +1,17 @@
 ### Swift dependencies file v0 ###
 provides-top-level:
+- "APIManagerProtocol"
 - "APIManager"
 provides-nominal:
+- "9basicmvvm18APIManagerProtocolP"
 - "9basicmvvm10APIManagerV"
 provides-member:
+- ["9basicmvvm18APIManagerProtocolP", ""]
 - ["9basicmvvm10APIManagerV", ""]
 provides-dynamic-lookup:
 depends-top-level:
 - "APIManager"
+- "APIManagerProtocol"
 - "Bool"
 - "BooleanLiteralType"
 - !private "Disposables"
@@ -19,7 +23,14 @@ depends-member:
 - ["9basicmvvm10APIManagerV", "SignIn"]
 - ["9basicmvvm10APIManagerV", "Single"]
 - ["9basicmvvm10APIManagerV", "User"]
+- ["9basicmvvm10APIManagerV", "deinit"]
 - ["9basicmvvm10APIManagerV", "init"]
+- ["9basicmvvm18APIManagerProtocolP", "Bool"]
+- !private ["9basicmvvm18APIManagerProtocolP", "Disposables"]
+- ["9basicmvvm18APIManagerProtocolP", "SignIn"]
+- ["9basicmvvm18APIManagerProtocolP", "Single"]
+- ["9basicmvvm18APIManagerProtocolP", "User"]
+- ["9basicmvvm18APIManagerProtocolP", ""]
 - !private ["7RxSwift11DisposablesV", "create"]
 - !private ["7RxSwift25ObservableConvertibleTypeP", "create"]
 - !private ["7RxSwift17PrimitiveSequenceV", "create"]
@@ -27,6 +38,7 @@ depends-member:
 - !private ["7RxSwift11SingleEventO", "success"]
 depends-nominal:
 - "9basicmvvm10APIManagerV"
+- "9basicmvvm18APIManagerProtocolP"
 - !private "7RxSwift11DisposablesV"
 - !private "7RxSwift25ObservableConvertibleTypeP"
 - !private "7RxSwift17PrimitiveSequenceV"
@@ -75,4 +87,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "b2c5fc9af70df93fb255a3b4be6286a7"
+interface-hash: "50e1c879905087304ddec877ba1aaeef"
